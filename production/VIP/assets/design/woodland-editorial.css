@@ -1,0 +1,144 @@
+/* Commercial VIP: hunter green, cherry-mahogany and antique brass.
+   Photography, floor plans and source documents retain their original colors. */
+:root{--ink:#eeeae1;--forest:#204d3b;--paper:#102b22;--line:#526052;--muted:#bfc9bd;--gold:#c4a572;--white:#f1eee5;--wood:#673b32;--wood-deep:#452820;--brass:#c4a572}
+body{background:#102b22;color:#eeeae1}
+::selection{background:#c4a572;color:#102b22}
+header,.nav-links{background:#102b22;color:#eeeae1;border-color:#65705a}
+.brand small{color:#c4a572}
+.nav .button,.button{background:#673b32;color:#fff2e5;border-color:#ac7960}
+.button:hover,.nav .button:hover{background:#855040;color:#fff8ee}
+.menu{color:#eeeae1;border-color:#c4a572}
+.eyebrow,.overview-image:before,.floor-picker .eyebrow{color:#c4a572}
+.muted,.section-head>p,.caption{color:#bfc9bd}
+.button.ghost,.button.light{background:transparent;color:#eeeae1;border-color:#b79869}
+.button.ghost:hover,.button.light:hover{background:#c4a572;color:#142b22}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline-color:#e9c88c}
+.hero.arrival,.hero.arrival .arrival-address{background:#153729;color:#eeeae1}
+.hero.arrival .arrival-address{border-top:1px solid #b79869;border-bottom:1px solid #65705a}
+.hero.arrival .arrival-address h1{color:#f0ece2}
+.hero.arrival .arrival-address .eyebrow{color:#d4b780}
+.hero.arrival .arrival-address p:not(.eyebrow){color:#bfc9bd}
+.hero.arrival .hero-actions .light{background:#673b32;border-color:#ac7960;color:#fff2e5}
+.hero.arrival .hero-actions .outline{color:#e7d4b3;border-color:#a48b64}
+.arrival-portrait{border-color:#c4a572}
+.arrival-controls button{background:#153729ed;border-color:#c4a572}
+.arrival-controls button:hover{background:#673b3a;color:#fff}
+.facts{background:#452820;color:#eeeae1;border-color:#996f54}
+.fact{border-color:#94694f}.fact span{color:#d3bfb0}
+#property,#gallery,.decision-center{background:#102b22;color:#eeeae1}
+.feature-list span{border-color:#526052}
+.property-carousel .carousel-control{color:#e7d4b3;border-color:#a48b64;background:#153729}
+.property-carousel .carousel-control:hover{background:#673b32}
+.property-carousel .carousel-status{color:#bfc9bd}
+.opportunity{background:#673b32;color:#f1e9df;border-color:#9b7359}
+.opportunity .muted,.opportunity-points p{color:#e2ccc0}
+.opportunity-points article{border-color:#a77e66}
+.opportunity .eyebrow,.opportunity-points article>span{color:#edcb92}
+.concepts{background:#0c211a;color:#eeeae1}
+.studio{background:#183d2d;color:#eeeae1}
+.concepts .eyebrow,.card-num,.card-link,.studio .eyebrow,.studio-aside h4{color:#d8b983}
+.card-copy p,.studio-summary,.studio .muted,.render-note{color:#c6d0c1}
+.mode-group{background:#0c211a}
+.mode-group button[aria-pressed=true]{background:#c4a572;color:#102b22}
+.studio-aside .button.light{background:#c4a572;border-color:#c4a572;color:#102b22}
+.wedding-network{background:#452820;color:#eeeae1}
+.network-intro>p,.network-featured p,.network-directory>div>p,.network-category ul,.network-disclaimer{color:#d8c6ba}
+.network-statline{color:#ecd4ad;border-color:#96715d}
+.network-featured article>span,.network-category summary b,.network-category summary:after{color:#d8b983}
+.network-featured article,.network-directory,.network-category,.network-disclaimer{border-color:#96715d}
+.network-directory .button{color:#f1dfc5;border-color:#bc9363}
+.filter{color:#bdcabc;background:transparent}
+.filter[aria-pressed=true]{color:#f0d19b;border-color:#c4a572;background:#204531}
+.plans-section{background:#234535;color:#eeeae1}
+.floor-switch button,.room-tabs button{background:#153729;color:#eeeae1;border-color:#859173}
+.floor-switch button[aria-pressed=true],.room-tabs button[aria-pressed=true]{background:#673b32;border-color:#ba9271;color:#fff2e5}
+.floor-number{color:#d7b579}
+.room-explorer,.room-detail,.plan-card{background:#153729;color:#eeeae1;border-color:#64735e}
+.room-measurements{background:#102b22;color:#eeeae1;border-color:#c4a572}
+.room-measurements #room-area{color:#edcf9b}.room-measurements small{color:#bfc9bd}
+.plan-surface{background:#fff}
+.decision-card p,.decision-card li,.decision-faq p,.decision-note,.decision-sources,.route span,.fact-row span:first-child{color:#bfc9bd}
+.decision-card a,.decision-sources a{color:#e3c18c}
+.decision-card .button,.decision-card .button.ghost{color:#f1e7d7}
+.decision-card,.fact-row span,.route,.decision-note,.decision-sources,.decision-faq,.decision-faq details{border-color:#526052}
+#film{background:#0c211a}
+.flyer-section{background:#452820;color:#eeeae1}
+.flyer-pair h3{color:#f1e7d7}.flyer-pair>p,.flyer-previews span,.palette{color:#d8c6ba}
+.flyer-pair{border-color:#96715d}
+.packet-panel{background:#673b32;color:#f1e7d7}
+.packet-panel .button{background:#153729;border-color:#b79869;color:#f1e7d7}
+.resources{background:#173c2c;color:#eeeae1}
+.resource{border-color:#64735e}.resource span{color:#bfc9bd}
+.resource:hover{background:#244d3b}
+.contact{background:#452820;color:#eeeae1}
+.contact p,.contact-card small{color:#d8c6ba}
+.contact-card{border-color:#a77e66}
+footer{background:#0c211a;color:#bfc9bd}
+/* Keep cartography and source plans undistorted; the surrounding interface is dark. */
+.location-map{background:#173c2c;color:#eeeae1}
+.map-workspace,.map-sidebar,.map-toolbar{background:#102b22;color:#eeeae1;border-color:#64735e}
+.map-sidebar select{background:#214633;color:#eeeae1;border-color:#859173}
+.map-style label{border-color:#859173}
+.map-place-list li.is-active{background:#673b32}
+.map-place-list{scrollbar-color:#c4a572 #102b22}
+.map-toolbar button{background:#673b32;color:#fff2e5;border-color:#ac7960}
+.map-sidebar p,.map-sidebar small,.map-sidebar .muted{color:#bfc9bd}
+.leaflet-popup-content{color:#172c2c}
+.map-heading>p,.map-layers label span,.map-small,.map-legend p,.map-caption,.map-source-note,.map-stat span,.map-list-guide{color:#bfc9bd}
+.map-toolbar a,.map-source-note a,.map-place-list button,.map-place-list a,.map-service a{color:#e3c18c}
+.map-place-list .map-location-quality{color:#e3c18c}
+.map-style input,.map-layers input{accent-color:#c4a572}
+.skip{background:#102b22;color:#fff}
+/* Material finishes sit behind content, never over photography or controls. */
+header,.nav-links,#property,#gallery,.decision-center,.concepts,.studio,
+.plans-section,.resources,.location-map,footer,.hero.arrival .arrival-address{
+  background-image:url('painted-wall.svg?v=3'),radial-gradient(ellipse at 20% 15%,#ffffff04,transparent 65%);
+  background-size:160px 160px,100% 100%;
+  background-repeat:repeat,no-repeat;
+}
+.facts,.opportunity,.wedding-network,.flyer-section,.contact,.packet-panel{
+  background-image:linear-gradient(#170e0bb3,#170e0bb3),url('mahogany-fine-v2.png');
+  /* Fixed square scale preserves the grain proportions at every section height. */
+  background-size:100% 100%,720px 720px;
+  background-repeat:no-repeat,repeat;
+}
+.opportunity,.packet-panel{background-image:linear-gradient(#25140d99,#25140d99),url('mahogany-fine-v2.png')}
+/* Stronger brass rules separate editorial chapters without outlining every card. */
+main>section:not(.hero),.facts,footer,.hero.arrival .arrival-address{
+  border-top:4px solid #b99a62;
+}
+/* Ink-black framing gives the natural materials room to stand out. */
+header,.nav-links{background:#101211;color:#eeeae1}
+.concepts,#film,footer{background:#101211;color:#eeeae1}
+.studio{background:#181c19;color:#eeeae1}
+.map-toolbar,.mode-group{background:#101211}
+.nav .button{background:transparent;border-color:#b99a62;color:#e7d4b3}
+.nav .button:hover{background:#673b32}
+/* VIP usability refinements */
+header{border-bottom:4px solid #b99a62}
+.network-category{padding:16px;border:1px solid #a1815d;align-self:start}
+.network-catalog{gap:14px}
+.network-category[open]{background:#141a16;box-shadow:0 8px 24px #0003}
+.network-category summary{display:grid;grid-template-columns:30px 1fr 18px;gap:8px 12px;align-items:center;padding:0}
+.network-category summary>span{font-size:1.25rem}
+.network-category summary>b{grid-column:2;font-size:.65rem}
+.network-category summary:after{grid-column:3;grid-row:1}
+.network-icon{width:26px;height:26px;stroke:#d8b983;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.network-category ul{padding-top:16px;border-top:1px solid #665d48;line-height:1.8}
+.concept-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card-copy h3{font-size:clamp(1.65rem,2.4vw,2.3rem)}
+.card-image,.carousel-stage,.vision-feature figure,.gallery-item img,.plan-card img,.room-detail>img,.flyer-previews img,.packet-images img{border:2px solid #b99a62}
+.comparison{outline:2px solid #b99a62;outline-offset:0}
+/* Use the media's native ratio; do not force a 16:9 box or crop footage. */
+body video,.video-section video,.wedding-film video,.film-dialog video{display:block;width:100%;height:auto;aspect-ratio:auto;max-height:none;object-fit:contain}
+.film-dialog{overflow:auto}
+@media(max-width:900px){.concept-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.concept-cards{grid-template-columns:1fr}}
+@media(orientation:portrait) and (max-width:1000px){
+  .arrival-agent{left:50%;right:auto;top:auto;bottom:84px;transform:translateX(-50%);width:210px}
+  .arrival-portrait{width:145px}
+  .arrival-agent figcaption{margin-top:10px}
+  .arrival-agent strong{font-size:1.7rem}
+  .arrival-agent figcaption>span{font-size:.75rem;margin-top:5px}
+  .arrival-agent a{font-size:.85rem;padding:8px 0}
+}

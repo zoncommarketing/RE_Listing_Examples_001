@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Production (clean) · 8595 US Highway 51</title>
+<link rel="icon" href="VIP/assets/site/favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:'Instrument Serif';src:url('VIP/assets/fonts/InstrumentSerif-Regular.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'Inter Tight';src:url('VIP/assets/fonts/InterTight-VF.woff2') format('woff2');font-weight:100 900;font-display:swap}
+:root{--bg:#0f2219;--bg2:#163126;--card:#11271d;--cream:#f4eee2;--mut:#c3cabd;--brass:#d6b983;--brass-l:#efd9a8;--ink:#10261d;--rust:#b8532c}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--cream);font:400 16px/1.6 'Inter Tight',system-ui,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}img{display:block;max-width:100%;height:auto}
+.top{display:flex;align-items:center;gap:16px;padding:16px clamp(16px,4vw,48px);background:#0b1913;border-bottom:4px solid;border-image:linear-gradient(90deg,#8d7142,#d6b983 18%,#efd9a8 50%,#d6b983 82%,#8d7142) 1}
+.mono{display:grid;place-items:center;width:52px;height:52px;border-radius:10px;background:linear-gradient(145deg,#efd9a8,#d6b983 55%,#b3925a);color:var(--ink);font:800 1rem/1 'Inter Tight',sans-serif;flex:none}
+.top b{display:block;font:400 1.7rem/1.05 'Instrument Serif',serif;color:#fff}.top small{font:700 .68rem/1.3 'Inter Tight',sans-serif;letter-spacing:.17em;text-transform:uppercase;color:var(--brass)}
+.price{margin-left:auto;padding:8px 16px;border:1.5px solid #d6b98399;border-radius:999px;background:#d6b9831a;white-space:nowrap}
+.price span{font:700 .64rem/1 'Inter Tight',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}.price strong{margin-left:8px;font:400 1.5rem/1 'Instrument Serif',serif;color:var(--brass-l)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+.intro{padding:clamp(40px,6vw,80px) 0 clamp(24px,3vw,36px)}
+.eyebrow{margin:0 0 12px;font:700 .74rem/1.3 'Inter Tight',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+h1{margin:0 0 14px;font:400 clamp(2.4rem,5vw,4.2rem)/1.02 'Instrument Serif',serif;color:#fff;letter-spacing:-.01em}
+.lede{max-width:70ch;margin:0;color:var(--mut);font-size:1.05rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:clamp(16px,2vw,26px);margin:0 0 clamp(40px,5vw,64px);padding:0;list-style:none}
+.card{display:flex;flex-direction:column;height:100%;border-radius:12px;overflow:hidden;background:var(--card);border:1px solid #d6b98340}
+.card .shot{position:relative;display:block;aspect-ratio:16/10;overflow:hidden;border-bottom:1px solid #d6b98333}
+.card .shot img{width:100%;height:100%;object-fit:cover;object-position:top}
+.card .tag{position:absolute;left:12px;top:12px;padding:6px 12px;border-radius:999px;background:var(--brass);color:var(--ink);font:800 .78rem/1 'Inter Tight',sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 20px;flex:1}
+.body h2{margin:0;font:400 2rem/1 'Instrument Serif',serif;color:#fff}
+.body p{margin:0;color:var(--mut);font-size:.95rem}
+.body ul{margin:2px 0 6px;padding:0 0 0 18px;color:var(--cream);font-size:.9rem}.body li{margin:3px 0}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;font:700 .9rem/1 'Inter Tight',sans-serif;text-decoration:none}
+.btn.solid{background:linear-gradient(180deg,#efd9a8,#d6b983);color:var(--ink)}.btn.line{border:1.5px solid #d6b983aa;color:var(--cream)}
+.btn:hover{filter:brightness(1.06)}.btn:focus-visible,.card a:focus-visible{outline:3px solid var(--brass-l);outline-offset:3px}
+.wip{display:inline-block;padding:2px 6px;border-radius:4px;background:var(--rust);color:#fff;font:800 .6rem/1.3 'Inter Tight',sans-serif;letter-spacing:.08em;text-transform:uppercase;vertical-align:1px}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(16px,2vw,26px);padding:clamp(28px,4vw,44px) 0 clamp(48px,6vw,80px);border-top:1px solid #d6b98333}
+.notes h3{margin:0 0 8px;font:400 1.5rem/1.1 'Instrument Serif',serif;color:#fff}.notes p,.notes li{color:var(--mut);font-size:.92rem}.notes ul{margin:0;padding-left:18px}
+.foot{padding:20px clamp(16px,4vw,48px) 28px;background:#0b1913;color:var(--mut);font-size:.8rem}
+@media(max-width:640px){.top b{font-size:1.2rem}.top small{display:none}.price span{display:none}.price strong{font-size:1.15rem}}
+</style>
+</head>
+<body>
+<header class="top"><span class="mono" aria-hidden="true">8595</span><div><b>8595 US Highway 51</b><small>Cobden, Illinois 62920 · Union County</small></div>
+<p class="price"><span>Offered at</span><strong>$749,000</strong></p></header>
+<main class="wrap">
+<div class="intro"><p class="eyebrow">8595 US Highway 51 · Production (clean)</p><h1>Choose a package to open.</h1><p class="lede">The clean sites, ready for the client's host.</p></div>
+<ul class="cards"><li><article class="card"><a class="shot" href="Basic/index.html" tabindex="-1" aria-hidden="true"><img src="../hub-assets/preview-basic.jpg" alt="" width="960" height="600" loading="lazy"><span class="tag">Basic</span></a><div class="body"><h2>Basic</h2><p>The essentials, done properly: every fact sourced, every photo, the map and a way to book a tour.</p><ul><li>10 pages, one per section</li><li>Property film and flyer</li><li>1 concept direction</li><li>3 share-ready images</li></ul><div class="btns"><a class="btn solid" href="Basic/index.html">Open the Basic site</a></div></div></article></li><li><article class="card"><a class="shot" href="Premium/index.html" tabindex="-1" aria-hidden="true"><img src="../hub-assets/preview-premium.jpg" alt="" width="960" height="600" loading="lazy"><span class="tag">Premium</span></a><div class="body"><h2>Premium</h2><p>A customized layout with a plan explorer, clickable figures and a buyer Q&A page.</p><ul><li>11 pages, adds Questions</li><li>Property film and vertical slideshow</li><li>Flyer and 4-page brochure</li><li>3 concept directions, 8 images</li></ul><div class="btns"><a class="btn solid" href="Premium/index.html">Open the Premium site</a></div></div></article></li><li><article class="card"><a class="shot" href="VIP/index.html" tabindex="-1" aria-hidden="true"><img src="../hub-assets/preview-vip.jpg" alt="" width="960" height="600" loading="lazy"><span class="tag">VIP</span></a><div class="body"><h2>VIP</h2><p>The full experience: a film opening, six concept directions, the complete print set, and the 3D model and virtual tour.</p><ul><li>12 pages, adds 3D Model and Virtual Tour</li><li>21 films: The Descent opening, the two-minute film, the walk-through, Blueprint to Party, One Day, Scale 1:1 and 12 concept films</li><li>Buyer presentation, 12 concept flyers, briefs and packets</li><li>6 concept directions, 60 renderings with people in the spaces, 12 images</li></ul><div class="btns"><a class="btn solid" href="VIP/index.html">Open the VIP site</a></div></div></article></li></ul>
+
+</main>
+<footer class="foot">8595 US Highway 51 N, Cobden, IL 62920 · MLS 12654129 · Listed by Lindsay Hill, RE/MAX Ultimate Professionals · 815-546-5625</footer>
+</body>
+</html>

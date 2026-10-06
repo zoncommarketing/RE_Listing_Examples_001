@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<filter id="paint" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency=".32" numOctaves="2" stitchTiles="stitch"/>
+<feColorMatrix type="saturate" values="0"/>
+<feComponentTransfer><feFuncA type="linear" slope=".045"/></feComponentTransfer>
+</filter>
+<path fill="#b9c8b0" opacity=".015" d="M0 0h512v512H0z"/>
+<path fill="#fff" filter="url(#paint)" d="M0 0h512v512H0z"/>
+</svg>
